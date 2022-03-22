@@ -29,7 +29,7 @@ const Gallery = ({ images }) => {
   };
 
   useEffect(() => {
-    const images = getData();
+    getData();
   }, []);
   return (
     <>
